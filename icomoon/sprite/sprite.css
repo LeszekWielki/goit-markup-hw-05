@@ -1,0 +1,36 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-telephone {
+  width: 24px;
+  height: 24px;
+  background-position: 0 0;
+}
+.icon-mail {
+  width: 24px;
+  height: 24px;
+  background-position: -40px 0;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -40px;
+}
+.icon-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -40px;
+}
+.icon-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -40px;
+}
+.icon-linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -40px;
+}
+
