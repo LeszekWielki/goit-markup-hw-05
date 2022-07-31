@@ -93,8 +93,7 @@ a {
   top: 80px;
 }
 .section_main {
-  background-image: linear-gradient(to right, #3444f366 100%, #2f303a66 100%),
-    url(../images/meeting.jpg);
+  background-image: url(../images/meeting.jpg);
   /* fill: solid #2f303a66; */
 }
 .nav {
