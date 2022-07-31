@@ -30,12 +30,16 @@ a:hover svg,
   color: var(--change-hover);
   fill: var(--change-hover);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon_group:hover {
   color: var(--change-hover);
   fill: var(--change-hover);
   border: 1px solid var(--change-hover);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .circle_icon:hover {
   background-color: var(--change-hover);
@@ -46,6 +50,8 @@ a:hover svg,
 }
 .icon_figcaption svg:hover {
   fill: white;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -58,7 +64,18 @@ button:focus {
   background-color: var(--change-hover);
   color: white;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.navi_img li:hover {
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* end hover/focus section */
 .list,
 .lorem_list,
@@ -522,8 +539,24 @@ header .first_div {
   margin-bottom: 30px;
 }
 
-.navi_img li:hover {
-  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
-    0px 1px 1px 0px #0000001f;
-  cursor: pointer;
+.nav_hover::after {
+  content: "";
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--change-hover);
+  position: absolute;
+  top: 77px;
+  left: 350px;
+}
+
+.nav_hover_2::after {
+  content: "";
+  width: 55px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--change-hover);
+  position: absolute;
+  top: 77px;
+  left: 451px;
 }
