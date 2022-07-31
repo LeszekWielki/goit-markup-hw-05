@@ -93,9 +93,11 @@ a {
   top: 80px;
 }
 .section_main {
-  background-image: url(../images/meeting.jpg);
-  /* fill: solid #2f303a66; */
+  background-image: linear-gradient(to right, #2f303a66 100%, #2f303a66 100%),
+    url(../images/meeting.jpg);
 }
+/* fill: solid #2f303a66; */
+
 .nav {
   text-decoration: none;
   font-size: 26px;
