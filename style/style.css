@@ -646,14 +646,15 @@ header .first_div {
 }
 
 .modal_window {
-  width: 500px;
-  height: 500px;
+  width: 528px;
+  height: 581px;
   background: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: solid 1px grey;
+  border-radius: 4px;
 }
 .is-hidden {
   opacity: 0;
@@ -671,4 +672,8 @@ header .first_div {
   border-radius: 50%;
   padding: 6px;
   cursor: auto;
+}
+.icon-x {
+  width: 16px;
+  height: 16px;
 }
