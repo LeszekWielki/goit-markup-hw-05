@@ -672,6 +672,7 @@ header .first_div {
   border-radius: 50%;
   padding: 6px;
   cursor: auto;
+  background: white;
 }
 .icon-x {
   position: relative;
