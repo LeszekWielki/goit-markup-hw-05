@@ -58,10 +58,11 @@ a:hover svg,
 .container {
   width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--change-hover);
   color: white;
   cursor: pointer;
@@ -543,13 +544,13 @@ header .first_div {
 
 .nav_hover::after {
   content: "";
-  width: 53px;
+  width: 54px;
   height: 4px;
   border-radius: 2px;
   background: var(--change-hover);
   position: absolute;
   top: 77px;
-  left: 350px;
+  left: 231px;
 }
 
 .nav_hover_2::after {
@@ -560,7 +561,7 @@ header .first_div {
   background: var(--change-hover);
   position: absolute;
   top: 77px;
-  left: 451px;
+  left: 331px;
 }
 
 .bg {
@@ -655,6 +656,7 @@ header .first_div {
   transform: translate(-50%, -50%);
   border: solid 1px grey;
   border-radius: 4px;
+  padding: 40px;
 }
 .is-hidden {
   opacity: 0;
@@ -671,11 +673,53 @@ header .first_div {
   border: grey solid 1px;
   border-radius: 50%;
   padding: 6px;
-  cursor: auto;
+  cursor: pointer;
   background: white;
 }
+
 .icon-x {
   position: relative;
   width: 16px;
   height: 16px;
+}
+
+.modal-input {
+  padding-top: 12px;
+}
+
+.h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.input-name {
+  margin-bottom: 10px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #21212133;
+  position: relative;
+  width: 448px;
+  height: 40px;
+  font-size: large;
+}
+
+.modal-input p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #757575;
+}
+
+.input-comment {
+  border-radius: 4px;
+  border: 1px solid #21212133;
+  width: 448px;
+  height: 120px;
 }
